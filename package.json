@@ -1,0 +1,30 @@
+{
+    "name": "odoo-code",
+    "displayName": "Features for Odoo development",
+    "description": "Some useful snippets for Odoo dev",
+    "version": "0.0.1",
+    "vpublisher": "fr2ee",
+    "icon": "./images/icon.png",
+    "engines": {
+        "vscode": "^1.30.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "python",
+                "path": "./snippets/python.json"
+            },
+            {
+                "language": "xml",
+                "path": "./snippets/xml.json"
+            }
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/fr2ee/odoo-code"
+    }
+}
